@@ -203,7 +203,7 @@ void DetectorConstruction::DefineMaterials()
 
   G4Material* Air = 
   new G4Material("Air", density= 1.290*mg/cm3, ncomponents=4);
-  Air->AddElement(N, fractionmass=78.09*perCent);
+  Air->AddElement(N, fractionmass=78.08*perCent);
   Air->AddElement(O, fractionmass=20.95*perCent);
   Air->AddMaterial(ArgonGas, fractionmass=0.93*perCent);
   Air->AddMaterial(CO2, fractionmass=0.04*perCent);
